@@ -23,8 +23,7 @@ resource "azurerm_ssh_public_key" "name" {
   name                = "azure_terraform"
   resource_group_name = azurerm_resource_group.main.name
   location            = azurerm_resource_group.main.location
-  public_key          = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCMhi9wOIiaJR8olVJX4aYLHnyA8gepxs8KMIIHewjk+aYQvxOdbddif9AAI55WbB03a37+1SvkrB8zSO6Qh/alTmPy6chjnY0tlNym6PLOzf3JwzlY62tv6aJa83SNumQLjeUlYeUH6o/9oJ34SpntVw0DJsVT06CdZ9GJQyExUp5ldGujOiU8kiBLsgZzZqAjYasIjcha8tr5/o898JKhmaBZzilP0sIM6tTAdTdxwIYxdk0wIWAe3WZHFB0BwuysStBrqh1UeT8WLS8ZyhT0gzHnEs15z8CWXqLksCriU39xrqkGX5RF0O2C5+Rk/X3XBl3ZEW9O/LkinP801IVz"
-
+  public_key          = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCrAOg9eLdWZJ2xPvIz0l9CpaLFttJxPvcimKlD6QcijSIpc6tiCb3Ljlm908UzBI6y+epV7mswC9x4AE6C6k1ySHGVgFimVhdRhkJvfKN/tfhwjFFVUP17CETAEM7ilVuL2HbXJfTA6CpFRDfmHNDmeVYru38MeIQk+F8DpEUZLbswalMAEUUKSmT2oBSkTJUcLs4oL8rfDijo5AosSwdNX6kavV2aqWxjiWwGZXDA3O/o7MbPZkQZWTP3R8TMx0ltOeQR6gBI/4DTzDhVIT/02vuHnC5/mvIivFtYisoRrm56l+tot3MQGYOF5USIHhWOLQOBdoLz3rIHi/Xq5r7Z"
 }
 
 resource "azurerm_virtual_network" "main" {
